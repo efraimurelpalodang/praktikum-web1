@@ -1,0 +1,72 @@
+* {
+  color: blue;
+  border: 2px solid red;
+}
+
+header h1 {
+  color: green;
+}
+.text-merah,
+.text-kuning {
+  font-size: 20px;
+  text-align: center;
+  background: black;
+}
+
+.text-merah {
+  color: red;
+}
+
+.text-kuning {
+  color: yellow;
+}
+
+div p {
+  color: red;
+}
+
+div > div > p {
+  font-weight: bold;
+}
+
+.subbagian {
+  font-size: 30px;
+}
+
+.subbagian,
+.header {
+  color: blueviolet;
+}
+
+#teks {
+  color: brown;
+}
+
+.kotak-satu {
+  padding: 20px;
+  margin: 10px;
+  border: 2px;
+  background: lightblue;
+}
+
+.kotak-dua {
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid red;
+  background: palegreen;
+  max-width: 50%;
+}
+
+.kotak-tiga {
+  padding: 0 0 0 50px;
+  margin-top: 50px 0 0 50px;
+  border-left: 2px dotted red;
+  width: 300px;
+  height: 200px ;
+  background: burlywood;
+}
+
+/* hover */
+p:hover {
+  background: aqua;
+}
